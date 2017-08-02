@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		94CF9B581F30DBF500E5A31C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CF9B571F30DBF500E5A31C /* AppDelegate.swift */; };
-		94CF9B5A1F30DBF500E5A31C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CF9B591F30DBF500E5A31C /* ViewController.swift */; };
+		94CF9B5A1F30DBF500E5A31C /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CF9B591F30DBF500E5A31C /* NewViewController.swift */; };
 		94CF9B5D1F30DBF500E5A31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CF9B5B1F30DBF500E5A31C /* Main.storyboard */; };
 		94CF9B5F1F30DBF500E5A31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CF9B5E1F30DBF500E5A31C /* Assets.xcassets */; };
 		94CF9B621F30DBF500E5A31C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CF9B601F30DBF500E5A31C /* LaunchScreen.storyboard */; };
+		94CF9B881F3209B200E5A31C /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CF9B871F3209B200E5A31C /* Flashcard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		94CF9B541F30DBF500E5A31C /* FlashcardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashcardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CF9B571F30DBF500E5A31C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94CF9B591F30DBF500E5A31C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94CF9B591F30DBF500E5A31C /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		94CF9B5C1F30DBF500E5A31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94CF9B5E1F30DBF500E5A31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94CF9B611F30DBF500E5A31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94CF9B631F30DBF500E5A31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94CF9B871F3209B200E5A31C /* Flashcard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				94CF9B571F30DBF500E5A31C /* AppDelegate.swift */,
-				94CF9B591F30DBF500E5A31C /* ViewController.swift */,
+				94CF9B591F30DBF500E5A31C /* NewViewController.swift */,
 				94CF9B5B1F30DBF500E5A31C /* Main.storyboard */,
+				94CF9B871F3209B200E5A31C /* Flashcard.swift */,
 				94CF9B5E1F30DBF500E5A31C /* Assets.xcassets */,
 				94CF9B601F30DBF500E5A31C /* LaunchScreen.storyboard */,
 				94CF9B631F30DBF500E5A31C /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					94CF9B531F30DBF500E5A31C = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 3NR85NQMNN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94CF9B5A1F30DBF500E5A31C /* ViewController.swift in Sources */,
+				94CF9B881F3209B200E5A31C /* Flashcard.swift in Sources */,
+				94CF9B5A1F30DBF500E5A31C /* NewViewController.swift in Sources */,
 				94CF9B581F30DBF500E5A31C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NR85NQMNN;
 				INFOPLIST_FILE = FlashcardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iDTech.Young-Kim.FlashcardGame";
@@ -274,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3NR85NQMNN;
 				INFOPLIST_FILE = FlashcardGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iDTech.Young-Kim.FlashcardGame";
@@ -301,6 +308,7 @@
 				94CF9B681F30DBF500E5A31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
